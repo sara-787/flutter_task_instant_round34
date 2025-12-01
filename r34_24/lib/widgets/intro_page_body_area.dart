@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:r34_24/widgets/button.dart';
 
 class IntroPageBodyArea extends StatelessWidget {
   const IntroPageBodyArea({super.key});
@@ -46,30 +47,8 @@ class IntroPageBodyArea extends StatelessWidget {
           const SizedBox(height: 40),
 
           // Button
-          Container(
-            width: double.infinity,
-            margin: const EdgeInsets.symmetric(horizontal: 40),
-            child: TextButton(
-              style: TextButton.styleFrom(
-                backgroundColor: const Color(0xFF3BCC86),
-                padding: const EdgeInsets.symmetric(vertical: 18),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(30),
-                ),
-              ),
-              onPressed: () {
-                Navigator.pushNamed(context, '/homeScreen');
-              },
-              child: const Text(
-                'Get Started',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 18,
-                  fontWeight: FontWeight.w600,
-                ),
-              ),
-            ),
-          ),
+          Button(title: 'Login', color: const Color(0xFF3BCC86), path: '/Login')
+          
         ],
       ),
     );
