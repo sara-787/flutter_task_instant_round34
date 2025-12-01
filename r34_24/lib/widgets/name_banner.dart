@@ -26,6 +26,7 @@ class NameBanner extends StatelessWidget {
             ),
           ),
         ),
+        
       ],
     );
   }

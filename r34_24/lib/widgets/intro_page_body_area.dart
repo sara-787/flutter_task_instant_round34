@@ -23,6 +23,7 @@ class IntroPageBodyArea extends StatelessWidget {
               color: Colors.white,
             ),
           ),
+          
           const SizedBox(height: 5),
           const Text(
             'to our store',

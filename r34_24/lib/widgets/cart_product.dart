@@ -15,6 +15,7 @@ class _CartProductState extends State<CartProduct> {
   void _removeProduct() {
     
   }
+  
 
   @override
   Widget build(BuildContext context) {

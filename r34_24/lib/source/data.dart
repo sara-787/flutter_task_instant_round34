@@ -81,6 +81,7 @@ class Data extends DataRepository {
     sold: 1203,
     views: 554,
   ),
+  
   ProductModel(
     id: 8,
     title: 'Bell Peppers',

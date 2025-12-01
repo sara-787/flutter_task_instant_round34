@@ -23,6 +23,7 @@ Future<String> editPaste({
     pasteKey: pasteKey,
   );
 
+
   String newPasteLink = await createPaste(
     paste: newPaste,
     apiPasteExpirationDate: paste.pasteExpireDates,

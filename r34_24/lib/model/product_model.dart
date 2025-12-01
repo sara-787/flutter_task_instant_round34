@@ -58,5 +58,6 @@ class ProductModel extends Product {
       sold: sold ?? this.sold,
       views: views ?? this.views,
     );
+    
   }
 }

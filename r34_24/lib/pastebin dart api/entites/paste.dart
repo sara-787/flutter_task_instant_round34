@@ -17,6 +17,7 @@ class Paste {
 
   @override
   String toString() {
+    
 
     return 'Paste: \n  Key: $pasteKey\n  Title: $pasteTitle\n  Privacy: $pastePrivacy\n  Expire Date: $pasteExpireDates\n  Format: $pasteFormat\n  Body: $pasteBody';
   }

@@ -23,6 +23,7 @@ class FavProducts extends StatelessWidget {
             fit: BoxFit.cover,
           ),
         ),
+        
     
         const SizedBox(width: 40), 
     

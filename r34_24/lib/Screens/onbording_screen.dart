@@ -39,6 +39,7 @@ class _OnbordingScreenState extends State<OnbordingScreen> {
               ),
             ),
           ),
+          
 
           const IntroPageBodyArea(),
         ],

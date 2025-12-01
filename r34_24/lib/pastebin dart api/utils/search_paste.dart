@@ -6,6 +6,7 @@ import "../usecases/show_paste.dart";
 Future<List<Paste>> searchPaste({required String search}) async {
   List<Paste> pastes = [];
 
+
   String httpPastes = await listUserPastes();
   httpPastes = httpPastes.replaceAll('<paste>', '');
   httpPastes = httpPastes.replaceAll('</paste>', '#!,');

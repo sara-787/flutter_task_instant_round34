@@ -10,3 +10,4 @@ Future<Paste> getPaste({
 
   return pastes.firstWhere((element) => element.pasteKey == pasteKey);
 }
+

@@ -18,6 +18,7 @@ class Explore extends StatelessWidget {
             fontWeight: FontWeight.w600,
           ),
         ),
+        
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 20),

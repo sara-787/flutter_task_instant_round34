@@ -21,6 +21,7 @@ class GroceriesCard extends StatelessWidget {
         color: color,
         borderRadius: BorderRadius.circular(12),
       ),
+      
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [

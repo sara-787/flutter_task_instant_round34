@@ -121,6 +121,7 @@ class _HomepageScreenState extends State<HomepageScreen> {
             ),
           ),
 
+
           const SizedBox(height: 30),
           //BEST SELLING
           const NameBanner(bannerTitle: 'Best Selling'),

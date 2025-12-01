@@ -17,5 +17,6 @@ class Product {
     required this.image,
     required this.sold,
     required this.views,
+    
   });
 }

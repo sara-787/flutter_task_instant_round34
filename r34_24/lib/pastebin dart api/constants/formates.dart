@@ -1,4 +1,5 @@
 class Format {
+  
   static const String fourCs = "4cs";
   static const String six502acme = "6502acme";
   static const String six502kickass = "6502kickass";

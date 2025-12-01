@@ -14,6 +14,7 @@ class ProductDetailsPage extends StatefulWidget {
   State<ProductDetailsPage> createState() => _ProductDetailsPageState();
 }
 
+
 class _ProductDetailsPageState extends State<ProductDetailsPage> {
   int quantity = 1;
 

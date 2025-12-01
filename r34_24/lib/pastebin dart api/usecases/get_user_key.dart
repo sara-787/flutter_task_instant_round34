@@ -23,6 +23,7 @@ Future<String> getUserKey() async {
     String userKey = response.body;
     return userKey;
   } else {
+    
 
     //! update this with the new exception folder
     throw Exception(

@@ -16,5 +16,6 @@ class MyApp extends StatelessWidget {
       initialRoute: RoutesName.onbordingScreen,
       onGenerateRoute: RoutesHandler.generateRoute,
     );
+    
   }
 }

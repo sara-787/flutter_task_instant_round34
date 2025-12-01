@@ -9,5 +9,6 @@ class RoutesName{
   static const String favScreen ='favScreen';
   static const String exploreScreen ='ExploreScreen';
   static const String login ='/Login';
+   
 }
    

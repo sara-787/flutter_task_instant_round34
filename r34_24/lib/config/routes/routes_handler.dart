@@ -18,6 +18,7 @@ class RoutesHandler {
         return MaterialPageRoute(
           builder: (context) => SplashScreen(),
         );
+        
       case RoutesName.onbordingScreen:
         return MaterialPageRoute(
           builder: (context) => OnbordingScreen(),
